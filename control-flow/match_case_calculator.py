@@ -1,7 +1,7 @@
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
-wanted_opertaion = input("Choose the operation (+, -, *, /): ")
-match wanted_opertaion:
+s = input("Choose the operation (+, -, *, /): ")
+match s:
  case "+":
   sum = num1 + num2
   print("The result is " + str(sum))
