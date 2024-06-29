@@ -13,4 +13,7 @@ match operation:
   print("The result is " + str(multiply))
  case "/":
   divide = num1 / num2
-  print("The result is " + str(divide))
+  if num1 == 0:
+   print("Cannot divide by zero.")
+  else:
+   print("The result is " + str(divide))
