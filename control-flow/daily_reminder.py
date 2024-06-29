@@ -11,7 +11,7 @@ match priority:
         if time_bound == "yes":
          print("Reminder: " + str(task) + " is a medium priority task that requires immediate attention today!")
         elif time_bound == "no":
-         print(str(task) + " is a medium priority task. Consider completing it when you have free time.")
+         print(str(task) + " is a low priority task. Consider completing it when you have free time.")
     case "low":
         if time_bound == "yes":
          print("Reminder: " + str(task) + " is a low priority task that requires immediate attention today!")
