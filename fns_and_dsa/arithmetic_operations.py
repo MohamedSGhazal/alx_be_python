@@ -8,6 +8,6 @@ def perform_operation(num1, num2, operation):
         elif operation == "divide":
             if num2 == 0:
                  return "number 2 can't be zero"
-            return num2 / num1
+            return num1 / num2
         else:
             raise ValueError("Invalid operation")
