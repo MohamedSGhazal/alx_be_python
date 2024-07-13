@@ -5,8 +5,6 @@ class Book:
         self.__is_checked_out = False
     def get_is_checked_out(self):
         return self.__is_checked_out
-    def set_is_checked_out(self, is_checked_out):
-        self.__is_checked_out = is_checked_out
     def return_book(self):
         self.__is_checked_out = False
     def check_out_book(self):
